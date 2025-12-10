@@ -1,3 +1,7 @@
+# Emmet
+- Adicionei essa observação porque sempre esqueço o comando: CTRL + SHIFT + P
+
+---
 # HTML
 Hypertext
 Markup
@@ -11,7 +15,7 @@ Language
 - Imagens, Sons e Vídeos
 
 ## Comentários no HTML
-- Utiliza-se <!-- -->
+- O exemplo está no index.html
 
 ## Anatomia das Tags
 - Abertura
@@ -22,8 +26,12 @@ Language
 
 ## Espaços e quebras de linha
 - Utiliza-se &nbsp para espaços
-- Utiliza-se <br> para quebras de linha
+- Utiliza-se br para quebras de linha
 
 ## Fluxo HTML
 - Existem diferentes displays 
 - Testei o block e o inline
+
+## Aninhamento de Tags
+- Dá para adicionar uma tag dentro da outra
+- Testei o strong e o em
