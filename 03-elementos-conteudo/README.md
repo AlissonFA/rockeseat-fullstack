@@ -32,3 +32,12 @@ Atributos
 - url, fragmento
 - target
 - Para utilizar o fragmento bastar colocar uma #nomedoid no href
+
+## Imagens
+- &lt;img&gt;
+
+Atributos
+- src
+- alt (descrever a imagem)
+- width (largura)
+- height (altura)
