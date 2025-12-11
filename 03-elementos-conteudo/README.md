@@ -12,3 +12,7 @@
 - <code>&lt;em&gt;</code> (enfase)
 - <code>&lt;mark&gt;</code> (relevância)
 - <code>&lt;s&gt;</code> (riscado)
+
+## Listas
+- Não ordenadas
+- Ordenadas
