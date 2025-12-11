@@ -11,7 +11,7 @@
 
 ## Atributos Booleanos
 - Não precisam de conteúdo
-- hidden
+- <code>hidden</code>
 
 ## Atributos Globais
 - Comum a qualquer elemento HTML
@@ -32,3 +32,7 @@
 ### Data-
 - Permite colocar o nome que quiser dentro das "", fora delas é recomendado seguir as mesmas sugestões do ID.
 - Serve como um ID
+
+### Style
+- Aplica um estilo na tag
+- Tentar **evitar**
