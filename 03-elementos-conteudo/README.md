@@ -16,3 +16,10 @@
 ## Listas
 - Não ordenadas
 - Ordenadas
+
+## Representação de códigos de computador
+- &lt;code&gt;
+- &lt;pre&gt; Ela leva em consideração os espaços e as quebras de linha
+- caracteres especiais
+- &lt - lower than
+- &gt - greather than
