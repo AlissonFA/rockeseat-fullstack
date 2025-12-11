@@ -1,3 +1,10 @@
+# Comandos
+- Apenas alguns comandos simples que eu acredito ser essencial guardar para garantir uma maior agilidade
+- CTRL + J abre o terminal do VScode
+- CTRL + SHIFT + P Emmet (novamente)
+- CTRL + C e CTRL + V sem selecionar nada copia e cola abaixo a mesma linha
+- Alt + seta para mover uma linha para cima ou para baixo
+
 # HTML
 
 ## Tags Estruturais
