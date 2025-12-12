@@ -8,3 +8,6 @@ Cascading Stylesheet
 - Propriedade e valor
 - Estilos para o HTML
 - Arquivos `.css`
+
+## Anotações
+- /* anotações-aqui */
