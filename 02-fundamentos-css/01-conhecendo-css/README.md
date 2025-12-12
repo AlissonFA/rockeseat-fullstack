@@ -43,3 +43,10 @@ Cascading Stylesheet
 `<data-type>`
 
 > Estudo constante a fim de entender as propriedades e seus valores
+
+## Seletores
+- type | element | tag (nome da tag)
+- id (#id)
+- class (.class)
+- atributo ([atributo])
+- universal (*)
