@@ -26,6 +26,11 @@ Cascading Stylesheet
 ## Especificidade
 - Cada seletor tem um peso
 - Soma dos pesos faz a declaração ser aplicada.
+
 - #id - 100
 - .class - 10
 - element - 1
+
+## Mais específico
+- Style (Recomenda não utilizar. Aplica no HTML)
+- !important (Recomenda não utilizar)
