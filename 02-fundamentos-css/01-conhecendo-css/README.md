@@ -22,3 +22,10 @@ Cascading Stylesheet
 ## Cascading
 - Cascata
 - Hierarquia de regras (ele leva em consideração aquele que vem depois)
+
+## Especificidade
+- Cada seletor tem um peso
+- Soma dos pesos faz a declaração ser aplicada.
+- #id - 100
+- .class - 10
+- element - 1
