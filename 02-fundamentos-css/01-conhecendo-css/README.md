@@ -34,3 +34,12 @@ Cascading Stylesheet
 ## Mais específico
 - Style (Recomenda não utilizar. Aplica no HTML)
 - !important (Recomenda não utilizar)
+
+## Valores e unidades de medidas
+- Cada propriedade possui valores
+
+`property: value`
+
+`<data-type>`
+
+> Estudo constante a fim de entender as propriedades e seus valores
