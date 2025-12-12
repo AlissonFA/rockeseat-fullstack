@@ -18,3 +18,7 @@ Cascading Stylesheet
 - {} - context
 - Properties
 - Property value
+
+## Cascading
+- Cascata
+- Hierarquia de regras (ele leva em consideração aquele que vem depois)
