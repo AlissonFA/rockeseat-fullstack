@@ -1,0 +1,8 @@
+/* exemplo para aprender propriedades e valores (consultar documentação no MDN) */
+
+h1 {
+    color: blue; /* cor */
+    font-size: 32px; /* comprimento */
+    letter-spacing: 2; /* espaçamento */
+    text-transform: uppercase; /* palavra chave */
+}
