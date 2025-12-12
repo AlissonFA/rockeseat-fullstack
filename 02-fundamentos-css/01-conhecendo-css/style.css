@@ -1,8 +1,39 @@
 /* exemplo para aprender propriedades e valores (consultar documentação no MDN) */
 
+/* tag */
 h1 {
     color: blue; /* cor */
     font-size: 32px; /* comprimento */
     letter-spacing: 2; /* espaçamento */
     text-transform: uppercase; /* palavra chave */
+}
+
+/* id */
+#testedeid {
+    color: blueviolet;
+}
+
+/* class */
+.testedeclass {
+    color: aqua;
+}
+
+/* atributo */
+[title] {
+    color: brown;
+}
+
+/* atributo mais específico */
+[translate = "no"] {
+    color: black;
+}
+
+/* tag, id, class, atributo */
+p#teste.inicio [spellcheck="false"] {
+    color: green;
+}
+
+/* universal */
+* {
+    color: yellow;
 }
