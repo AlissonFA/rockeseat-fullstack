@@ -50,3 +50,13 @@ Cascading Stylesheet
 - class (.class)
 - atributo ([atributo])
 - universal (*)
+
+## Combinator
+- Descendent (maior, médio, menor)
+    Exemplo: <code>article p</code>
+- List (separado por vírgulas)
+    Exemplo: <code>span, mark</code>
+- Next sibling
+    Exemplo: <code>h2 + p</code>
+- Child (pega o primeiro filho de dentro de algo. Não funciona com cor)
+    Exemplo: <code>aside > ul</code>
