@@ -22,4 +22,7 @@
 - Aplicamos apenas os valores horizontais de `margin`, `padding` e `border`
 
 > elementos padrão com `display: inline`
- `<a>, <pan>, <strong>, <em>`
+ `<a>, <span>, <strong>, <em>`
+
+### border
+- Exemplo prático no index e style
