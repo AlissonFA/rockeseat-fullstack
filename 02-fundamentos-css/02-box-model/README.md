@@ -26,3 +26,7 @@
 
 ### border
 - Exemplo prático no index e style
+
+### width, height
+- Width (largura)
+- Height (altura)

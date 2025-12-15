@@ -6,3 +6,14 @@
     /* border-color: red green blue black; */
     /* também dá para mexer somente em uma borda */
 }
+
+div, span {
+    /* no inline não aplica */
+    min-width: 200px;
+    width: 250px; /* largura */
+    max-width: 300px;
+
+    min-height: 200px;
+    height: 250px; /* altura */
+    max-height: 300px;
+}
