@@ -27,5 +27,13 @@
 }
 
 .padding {
-    padding: 20px 40px 0 10px;
+    box-sizing: border-box; /* para impedir que mude a largura da caixa */
+    padding: 20px 40px 0 10px; /* ele muda a largura da caixa (o width é somado ao padding) */
+}
+
+/* teste de margin e padding */
+.teste {
+    background-color: red;
+    padding: 60px; /* o botão aumentou de tamanho (espaçamento interno) */
+    margin: 60px; /* o botão apenas moveu, sem aumentar de tamanho e nem nada (espaçamento externo) */
 }
