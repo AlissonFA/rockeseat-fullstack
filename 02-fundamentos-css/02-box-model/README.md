@@ -30,3 +30,6 @@
 ### width, height
 - Width (largura)
 - Height (altura)
+
+### margin
+- Espaçamento

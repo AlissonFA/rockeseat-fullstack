@@ -7,7 +7,8 @@
     /* também dá para mexer somente em uma borda */
 }
 
-div, span {
+/* width, height */
+.width-height {
     /* no inline não aplica */
     min-width: 200px;
     width: 250px; /* largura */
@@ -16,4 +17,11 @@ div, span {
     min-height: 200px;
     height: 250px; /* altura */
     max-height: 300px;
+}
+
+/* margin */
+.margin {
+    margin: 30px 10px 80px 4rem; /* aplica espaçamento nos quatro lados */
+    /* elemento inline apenas recebe margin das laterais */
+    /* margin não soma (margin collapsing) */
 }
