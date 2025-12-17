@@ -24,15 +24,15 @@
 > elementos padrão com `display: inline`
  `<a>, <span>, <strong>, <em>`
 
-### border
+## border
 - Exemplo prático no index e style
 
-### width, height
+## width, height
 - Width (largura)
 - Height (altura)
 
-### margin
+## margin
 - Espaçamento externo
 
-### padding
+## padding
 - Espaçamento interno
