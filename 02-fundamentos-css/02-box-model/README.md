@@ -32,4 +32,7 @@
 - Height (altura)
 
 ### margin
-- Espaçamento
+- Espaçamento externo
+
+### padding
+- Espaçamento interno

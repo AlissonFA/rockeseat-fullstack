@@ -25,3 +25,7 @@
     /* elemento inline apenas recebe margin das laterais */
     /* margin não soma (margin collapsing) */
 }
+
+.padding {
+    padding: 20px 40px 0 10px;
+}
