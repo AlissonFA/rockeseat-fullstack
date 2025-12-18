@@ -59,3 +59,10 @@
 - Font-Size (obrigatória)
 - Line-Height (/)
 - Font-Family (obrigatória)
+
+## Web Fonts
+- fonts.google.com (get embed code)
+- O link (preconnect) coloca no &lt;head&gt; do HTML (antes do meta)
+- O link (stylesheet) coloca após o &lt;title&gt; (antes do fechamento do &lt;head&gt;)
+- OBS: Não é obrigatório fazer dessa forma, é apenas questão de preferência
+- Também dá para importar com @ no CSS, mas não é recomendada, pois é mais lenta
