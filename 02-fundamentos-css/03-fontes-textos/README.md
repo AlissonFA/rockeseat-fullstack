@@ -4,6 +4,7 @@
 - 1rem (16px)
 
 ## Font Family
+- Muda a fonte
 - Sempre que o nome da fonte tiver espaços, ela precisa estar entre ' '
 - nome da família + genéricos
 
@@ -47,3 +48,14 @@
 ## Word-Spacing
 - Espaçamento entre palavras
 - Tem que tomar cuidado
+
+## Shorthand Font
+- Shorthand (maneira curta de fazer várias propriedades)
+- Font (shorthand)
+- Font-Style
+- Font-Variant
+- Font-Weight
+- Font-Stretch
+- Font-Size (obrigatória)
+- Line-Height (/)
+- Font-Family (obrigatória)
