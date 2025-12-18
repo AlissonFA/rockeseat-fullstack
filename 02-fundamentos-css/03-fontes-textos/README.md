@@ -1,5 +1,8 @@
 # CSS
 
+## Tamanhos
+- 1rem (16px)
+
 ## Font Family
 - Sempre que o nome da fonte tiver espaços, ela precisa estar entre ' '
 - nome da família + genéricos
@@ -29,3 +32,10 @@
 - Decoração da linha abaixo (geralmente na tag <code>&lt;a&gt;</code>)
 - None (remove a linha)
 - Permite várias customizações da linha
+
+## Text Align
+- Alinhamento
+
+## Line Height
+- Altura entre as linhas
+- Indicado que utilize com multiplicador (multiplicador é váriavel. Se a fonte aumenta ele já ajusta automáticamente)
