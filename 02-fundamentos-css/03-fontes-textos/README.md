@@ -39,3 +39,11 @@
 ## Line Height
 - Altura entre as linhas
 - Indicado que utilize com multiplicador (multiplicador é váriavel. Se a fonte aumenta ele já ajusta automáticamente)
+
+## Letter-Spacing
+- Espaçamento entre letras
+- Tem que tomar cuidado
+
+## Word-Spacing
+- Espaçamento entre palavras
+- Tem que tomar cuidado
