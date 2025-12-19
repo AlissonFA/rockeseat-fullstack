@@ -33,3 +33,11 @@
 - Background-Size é o tamanho
     - Contain (contém no espaço disponível, ele fica se adaptando)
     - Cover (cobre o espaço, se aumentar ele aumenta conforme a necessidade)
+
+### Background Shorthand
+- Background (shorthand)
+    - Background-Color
+    - Background-Image
+    - Background-Repeat
+    - Background-Position
+    - Background-Size (/)
