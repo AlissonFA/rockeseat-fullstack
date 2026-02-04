@@ -1,0 +1,10 @@
+.container {
+    border: dashed; /* adiciona uma borda pontilhada */
+}
+
+.item {
+    --hue: 0; /* teste de criação de variável */
+    text-align: center;
+    /* background-color: hsl(hue, saturation, lightness); */
+    background-color: hsl(var(--hue), 100%, 70%); /* teste de implementação de variável */
+}
