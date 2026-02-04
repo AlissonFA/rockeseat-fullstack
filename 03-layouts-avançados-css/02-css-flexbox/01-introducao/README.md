@@ -1,6 +1,4 @@
-# CSS
-
-## Flexbox
+# Flexbox
 - container
 - children
 - concepts

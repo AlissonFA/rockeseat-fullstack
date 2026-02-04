@@ -1,10 +1,10 @@
-# CSS
-
-## Flexbox
-
-### Gap
+# Gap
 - espaço entre elementos
-- valores (relativo, fixo ou flexível)
 
-### Margin
+## valores
+- relativo
+- fixo
+- flexível
+
+# Margin
 - auto (pega o primeiro e empurra os outros)
