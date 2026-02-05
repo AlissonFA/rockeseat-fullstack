@@ -1,23 +1,21 @@
-# CSS
-
-## Normal Flow
+# Normal Flow
 - block
 - inline
 
-## Table
+# Table
 - quase não usa
 - table (abre a tabela)
 - tr (define uma nova linha da tabela)
 - td (define uma coluna da tabela)
 
-## Tableless
+# Tableless
 - quase não usa
 - sem tabela
 - float: left (flutuando a esquerda)
 - float: right (flutuando a direita)
 - clear: both (faz um clear de left e right)
 
-## Flexbox
+# Flexbox
 - container
     - itens
 
@@ -28,7 +26,7 @@
     - alinhamento
     - tamanhos flexíveis
 
-## Grid
+# Grid
 - grade #
     - colunas e linhas
 
