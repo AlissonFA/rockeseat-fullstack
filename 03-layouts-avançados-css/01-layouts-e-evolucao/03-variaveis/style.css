@@ -1,0 +1,10 @@
+:root {
+    --titulo-cor: blue; /* para teste do escopo */
+}
+
+h1 {
+    --titulo-cor: red;
+    --titulo-tamanho: 3rem;
+    color: var(--titulo-cor);
+    font-size: var(--titulo-tamanho);
+}

@@ -1,8 +1,6 @@
-# CSS
+# Variáveis
 
-## variáveis
-
-### Criação
+## Criação
 - qualquer valor
 - inicia com --
 - nome
@@ -10,8 +8,8 @@
     - sem caracteres especiais
     - sem iniciar com números
 
-### Uso
+## Uso
 - var()
 
-### Escopo
+## Escopo
 - É possível alterar a variável dentro de algum elemento, como o body. Permitindo pegar uma alteração personalizada ao invés de uma global.
