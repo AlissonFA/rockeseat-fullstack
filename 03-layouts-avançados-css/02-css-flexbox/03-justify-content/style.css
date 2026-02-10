@@ -5,7 +5,7 @@ img {
     height: auto;
 }
 
-.align {
+.justify {
     display: flex;
     justify-content: center; /* alinha no eixo horizontal */
     gap: 4px;
