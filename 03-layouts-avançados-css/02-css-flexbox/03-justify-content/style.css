@@ -1,0 +1,5 @@
+.align {
+    display: flex;
+    justify-content: center; /* alinha no eixo horizontal */
+    gap: 4px;
+}
