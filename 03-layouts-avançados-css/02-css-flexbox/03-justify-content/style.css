@@ -1,3 +1,10 @@
+img {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
 .align {
     display: flex;
     justify-content: center; /* alinha no eixo horizontal */
