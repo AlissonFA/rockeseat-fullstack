@@ -1,0 +1,12 @@
+img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.flex {
+    display: flex; /* tudo fica inline no eixo main*/
+    /* flex-direction: column; direção */
+    flex-direction: column-reverse;
+}
