@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    /* flex-basis: 120px; apenas para verificar se seria aplicado em todo container ou individualmente */
+}
+
+.item {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 60%);
+    flex-basis: 50px; /* muito semelhante a largura (width); é em relação ao eixo principal (main) */
+}
