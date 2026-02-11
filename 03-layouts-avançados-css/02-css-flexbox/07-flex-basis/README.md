@@ -5,7 +5,7 @@
 - flex (shorthand)
 - Aplica por item
 
-## Flex-basis
+## Flex-Basis
 - Semelhante a largura (width)
 - Relativo ao eixo principal (main)
 
