@@ -11,6 +11,7 @@
 - wrap-reverse
 
 ## align-content
+- Não funciona se não aplicar o flex-wrap
 
 ### valores
 - flex-start (cima)
