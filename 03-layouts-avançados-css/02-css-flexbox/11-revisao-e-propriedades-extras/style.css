@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* row-gap: 2rem; */
+    /* column-gap: 2rem; */
+    gap: 2rem;
+}
+
+.item {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 50%);
+    flex: 1 1 400px;
+}
+
+.container-self {
+    display: flex;
+    padding-top: 10px;
+    height: 50vh;
+}
+
+.item-self {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 50%);
+    flex-basis: 10%;
+}
+
+.item-self:nth-child(2) {
+    align-self: center;
+}
