@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+.item {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 50%);
+}
+
+.item:nth-child(2) {
+    order: 1; /* ele não está modificando o HTML para mudar de posição, por isso é perigoso para acessibilidade */
+}
