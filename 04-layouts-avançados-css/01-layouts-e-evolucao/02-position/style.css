@@ -1,0 +1,51 @@
+div {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.relative {
+    background-color: red;
+    position: relative; /* mantém o normal flow */
+    top: 20px; /* ele consegue passar por cima de outros elementos */
+    left: 20px;
+    z-index: -1; /* frente ou fundo */
+}
+
+.absolute {
+    background-color: red;
+    position: absolute; /* quebra o normal flow (! normal flow) */
+    z-index: -1;
+    right: 20px; /* relativo ao containing block próximo ou initial */
+}
+
+/* Este exemplo de section é um teste de como criar um containing block próximo para o position absolute, o outline é apenas para uma melhor visualização
+
+section {
+    position: relative;
+    outline: 1px solid red;
+} */
+
+.fixed {
+    background-color: red;
+    position: fixed; /* fixa na tela, mesmo se rolar a tela (! normal flow) */
+    right: 20px;
+    bottom: 20px;
+
+    /* o fixed me lembra os botões de chat com IA que tem em alguns sites */
+}
+
+section.sticky {
+    outline: 1px solid;
+    /* overflow: scroll; necessário para uma melhor visualização da rolagem do sticky
+    height: 100px; */
+}
+div.sticky {
+    background-color: red;
+    position: sticky; /* relativo e fixo (normal flow) */
+    top: 5px; /* relativo ao elemento pai que tenha mecanismo de scroll */
+    right: 20px;
+
+    /* o top é a distância para que ele comece a se mover com a barra de rolagem */
+}

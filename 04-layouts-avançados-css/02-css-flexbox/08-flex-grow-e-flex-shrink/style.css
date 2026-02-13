@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+}
+
+.item {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 50%);
+    /* flex-grow: 100px;
+    flex-grow: 100vh;
+    flex-grow: 100rem; aparentemente ele apenas aceita o número sem ser fixo, relativo ou flexível*/
+    flex-grow: 1;
+}
+
+.item:nth-child(3) {
+    flex-grow: 2; /* ele pega porções, se somar o 1 e o 2 ou assim por diante, 2 porções seria a soma de dois padrões; o restante vai ficando com porções menores */
+}
+
+/* .item:nth-child(n+4) {
+    flex-basis: 250px; precisa disso para usar o flex-shrink
+    flex-shrink: 0; é o responsável por manter os elementos no campo do site, se utilizar 0, ele desativa e os elementos podem passar da tela, criando uma barra de rolagem; só da pra usar com flex-basis; por padrão ele é o número 1
+} */
+
+.item-shrink {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 50%);
+    flex-basis: 120px;
+    flex-shrink: 0.5; /* os outros vão encolher 0.5, enquanto o nth-chield(2) vai encolher 25 */
+}
+
+.item-shrink:nth-child(2) {
+    flex-shrink: 25; /* quanto maior o número, mais ele vai encolhendo */
+}

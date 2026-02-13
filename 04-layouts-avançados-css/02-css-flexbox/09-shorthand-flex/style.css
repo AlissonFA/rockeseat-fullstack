@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+}
+
+.item {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 50%);
+    /* flex: initial; não cresce, encolhe, basis automático*/
+    /* flex: auto; cresce, encolhe, basis automático*/
+    /* flex: none; não cresce, não encolhe, não tem basis */
+
+    /* um valor */
+    /* flex: 1; grow de 1, shrink vai ter e basis desativado */
+    /* flex: 1px; basis, tem grow e tem shrink */
+
+    /* dois valores */
+    /* flex: 0 1; basis desativado */
+    /* flex: 0 10%; shrink 1 */
+    
+    /* três valores */
+    /* flex: 1 0 250px; crescer, encolher, basis */
+}

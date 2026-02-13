@@ -1,0 +1,11 @@
+.align {
+    height: 50vh; /* precisa definir uma altura para poder visualizar o align items */
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    --hue: 0;
+    background-color: hsl(var(--hue), 100%, 70%);
+    width: 20px;
+}
