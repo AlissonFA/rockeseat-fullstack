@@ -1,0 +1,22 @@
+#app {
+    display: grid;
+    /* grid-template-columns: 100px 200px 300px; fica tudo diferente */
+
+    /* grid-template-columns: 1fr 1fr 1fr; fr: fraction (fração), deixa flexível e separa por igual */
+
+    /* grid-template-columns: 1fr 2fr 1fr; */
+
+    /* grid-template-columns: repeat(3, 1fr); quantas vezes ele vai repetir; qual tamanho de cada uma das repetições
+    
+    tudo que sobra vai para baixo */
+
+    grid-template-columns: 1fr 200px 50% 30vw; /* pode colocar qualquer tipo de valor; serve para criar colunas */
+}
+
+#app > div {
+    border: 1px solid red;
+}
+
+span {
+    border: 1px solid blue;
+}
