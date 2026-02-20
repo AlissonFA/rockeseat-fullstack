@@ -1,0 +1,21 @@
+/* #app {
+    display: grid; ao aplicar, cada elemento ficou abaixo e começaram a ocupar a linha toda; semelhante ao display: block
+
+    provavelmente vai ser mais utilizado do que o inline-grid
+} */
+
+#app {
+    display: inline-grid; /* ao aplicar, cada elemento continua abaixo, mas ocupam somente o tamanho do conteúdo; semelhante ao display: inline, exceto pelos elementos um abaixo do outro */
+
+    margin-top: 30px; /* inline puro não aceita isso */
+}
+
+#app > div {
+    border: 1px solid red;
+}
+
+span {
+    border: 1px solid blue;
+
+    /* margin-top: 30px; inline puro não aceita isso */
+}
