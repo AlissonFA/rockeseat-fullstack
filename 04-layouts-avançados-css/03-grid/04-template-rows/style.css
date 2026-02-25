@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+#app {
+    display: grid; /* tem altura que for definido, pois a altura sempre é automática */
+    /* grid-template-rows: 200px 50%; o resto seria definido automaticamente pela inteligência do CSS */
+    /* grid-template-rows: 200px 1fr 2fr 50%; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    height: 100vh;
+}
+
+#app > div {
+    border: 1px solid red;
+}
+
+span {
+    border: 1px solid blue;
+}
