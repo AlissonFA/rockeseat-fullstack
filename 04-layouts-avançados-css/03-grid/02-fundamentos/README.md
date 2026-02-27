@@ -9,3 +9,12 @@
     - grid-template-columns; (serve para criar colunas, com qualquer valor)
     - grid-template-rows; 
     - grid-template-areas;
+
+---
+## Itens (filhos)
+- grid-column;
+    - grid-column-start; (qual coluna começa)
+    - grid-column-end; (qual coluna termina)
+- grid-row;
+    - grid-row-start;
+    - grid-row-end;
