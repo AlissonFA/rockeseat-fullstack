@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    height: 100vh;
+}
+
+#app > * {
+    border: 1px solid red;
+}
+
+#app header {
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#app main {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1/3;
+}
