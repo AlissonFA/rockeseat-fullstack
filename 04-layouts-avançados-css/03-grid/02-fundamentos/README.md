@@ -9,6 +9,9 @@
     - grid-template-columns; (serve para criar colunas, com qualquer valor)
     - grid-template-rows; 
     - grid-template-areas;
+- gap (shorthand);
+    - row-gap;
+    - column-gap;
 
 ---
 ## Itens (filhos)

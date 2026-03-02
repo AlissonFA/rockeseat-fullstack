@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+#app {
+    display: grid;
+    
+    grid-template-areas: /* O layout do Grid é o mesmo da exibição no site */
+
+    /* 1° forma */
+
+    /* "A B B" */
+    /* "A B B" */
+    /* "A C D"; */
+
+    /* 2° forma */
+
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+
+    /* gap: 20px; shorthand; serve para linhas e colunas */
+    row-gap: 20px; /* somente linhas */
+    column-gap: 20px; /* somente colunas */
+
+    height: 100vh;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+}
+
+#app > * {
+    border: 1px solid red;
+}
+
+#app header {
+    /* 1° forma */
+
+    /* grid-area: A; coloca a mesma letra/nome do template areas, sem aspas */
+
+    /* 2° forma */
+
+    grid-area: header;
+}
+
+#app main {
+    grid-area: main;
+}
+
+#app footer {
+    grid-area: footer;
+}
