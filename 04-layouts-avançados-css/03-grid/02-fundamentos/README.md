@@ -18,3 +18,4 @@
 - grid-row;
     - grid-row-start;
     - grid-row-end;
+- grid-area;
