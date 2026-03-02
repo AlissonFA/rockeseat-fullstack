@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 8px;
+
+    /* align-content: center; atua no eixo y
+    justify-content: center; atua no eixo x */
+    place-content: center; /* junção do align e justify */
+
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.grid > div {
+    background-color: cornflowerblue;
+}
