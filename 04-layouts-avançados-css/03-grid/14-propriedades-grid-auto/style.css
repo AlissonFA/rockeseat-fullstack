@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: grid;
+    list-style: none;
+
+    grid-auto-flow: column; /* aparentemente serve para mudar o fluxo atual dos elementos, seja linha ou coluna */
+    /* grid-auto-rows: 1fr; espaçamento entre os elementos */
+    grid-auto-rows: 1fr 2fr 3fr; /* ele segue automaticamente a ordem em um looping, após o 3fr ser aplicado se ainda tiver elementos ele continua o ciclo novamente */
+    grid-auto-columns: max-content; /* espaçamento entre as colunas */
+    gap: 16px;
+
+    height: 100vh; /* não precisa para trabalhar com colunas, pois a coluna trabalha com a largura e a largura já é 100 */
+}
