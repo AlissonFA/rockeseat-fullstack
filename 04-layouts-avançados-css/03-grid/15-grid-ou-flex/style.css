@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    /* display: grid;
+    grid-auto-flow: column;
+    justify-content: start; 
+    essas 3 propriedades é o flex */
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
