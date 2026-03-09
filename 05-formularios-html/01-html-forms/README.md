@@ -1,0 +1,2 @@
+# 📚 Metodologia de Estudo
+Nota de Organização: Para manter este repositório limpo, focado na prática e para melhorar minhas pesquisas, todas as minhas anotações teóricas e resumos das aulas vão estar no meu caderno digital pessoal. Este espaço do GitHub é dedicado exclusivamente à demonstração prática das habilidades!
