@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Email</title>
+  </head>
+  <body>
+    <form action="">
+      <input type="email" name="mail" multiple />
+      <button>Enviar</button>
+
+      <input type="email" name="mail" minlength="5" maxlength="30" />
+      <button>Enviar</button>
+
+      <input
+        type="email"
+        name="mail"
+        pattern=".+@rocketseat\.com"
+        title="Apenas e-mails @rocketseat.com serão aceitos"
+      />
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
