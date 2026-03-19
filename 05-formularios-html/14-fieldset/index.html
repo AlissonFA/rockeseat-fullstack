@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fieldset</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Nome</legend>
+
+        <input
+          type="text"
+          name="nome"
+          placeholder="Insira seu nome"
+          maxlength="20"
+        />
+        <input
+          type="text"
+          name="sobrenome"
+          placeholder="Insira seu sobrenome"
+          minlength="1"
+        />
+
+        <button>Enviar</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Contato</legend>
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Insira seu email"
+          size="30"
+          required
+        />
+        <input
+          type="tel"
+          name="telefone"
+          placeholder="Insira seu número de telefone"
+          size="30"
+        />
+        <button>Enviar</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Carro</legend>
+
+        <select name="Carro" size="7">
+          <option value="">Selecione seu carro</option>
+          <optgroup label="Esportivo">
+            <option value="BMW">BMW</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Lamborguini">Lamborguini</option>
+            <option value="Bugatti">Bugatti</option>
+          </optgroup>
+
+          <optgroup label="Família">
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Fiat">Fiat</option>
+            <option value="BYD">BYD</option>
+          </optgroup>
+        </select>
+        <button>Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
