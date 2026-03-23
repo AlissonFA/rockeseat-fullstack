@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+}
+
+div {
+  width: calc(30px + 1rem);
+  /* height: min(calc(30% + 10vh), 90vh); */
+  height: max(calc(30% + 10vh), 90vh);
+  outline: 1px solid red;
+
+  font-size: clamp(1rem, 7vh, 4rem);
+}
