@@ -1,0 +1,38 @@
+div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-color: aqua;
+
+  /* borrão */
+  /* filter: blur(10px); */
+
+  /* brilho; geralmente o padrão é 1 */
+  /* filter: brightness(0.5); */
+
+  /* Contraste */
+  /* filter: contrast(10); */
+
+  /* Da pra combinar */
+  /* filter: brightness(0.6) contrast(3); */
+
+  /* Sombra: Deslocamento X | Deslocamento Y | Espalhamento (borrado) | Pode aplicar mudança de cor se quiser */
+  /* filter: drop-shadow(1rem 1rem 2px blue); */
+  
+  /* Opacidade */
+  /* filter: opacity(0.2); */
+
+  /* Combos */
+  /* filter: opacity(0.4) blur(2px); */
+
+  /* Inverte as cores (todas as cores, texto, borda, background) */
+  /* filter: invert(); */
+
+  /* Girando a cor na roda hue; tem que por em angulação  */
+  filter: hue-rotate(200deg);
+
+  &:hover {
+    /* Unset serve para tirar as coisas que colocou antes */
+    filter: unset;
+  }
+}
