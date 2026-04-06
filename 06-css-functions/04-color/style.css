@@ -1,0 +1,18 @@
+div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  
+  /* RGB */
+  /* color: rgb(3, 102, 241); */
+
+  /* HSL/Hue */
+  /* color: hsl(324, 94%, 46%); */
+
+  /* Color Mix */
+  background-color: color-mix(
+    in hsl,
+    hsl(10 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
