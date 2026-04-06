@@ -1,0 +1,17 @@
+div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+
+  /* Gradient trabalha na propriedade background; é interpretado como imagem */
+  /* background: linear-gradient(90deg, red, blue); */
+
+  /* Também pode usar nomes em vez de angulação */
+  /* background: linear-gradient(to right, red, blue); */
+
+  /* Pode falar o fator de transição: comece a transicionar a partir de x% */
+  /* background: linear-gradient(0, red 80%, blue); */
+
+  /* Radial-Gradient: Formato arredondado */
+  background-image: radial-gradient(red 50%, blue);
+}
