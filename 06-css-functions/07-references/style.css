@@ -1,0 +1,13 @@
+div {
+  --size: 50px;
+  width: var(--size); /* Referenciando outro valor de outro lugar (var) */
+  height: var(--size); /* Referenciando outro valor de outro lugar (var) */
+  border: 1px solid red;
+
+  /* url() */
+  background: url(https://i.pinimg.com/236x/77/4c/a6/774ca6ce0c7552bc8bfda4a5b287fede.jpg) no-repeat center/contain;
+
+  &::before {
+    content: attr(data-content);
+  }
+}
