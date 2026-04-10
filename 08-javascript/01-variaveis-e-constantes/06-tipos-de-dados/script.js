@@ -34,7 +34,16 @@ console.log(7.5) // Tem que ser . porque se for , ele acha que são diferentes
 console.log(12.5 / "alisson")
 
 // Boolean (verdadeiro ou falso)
+console.log(true)
+console.log(false)
+
+let isLoading = true
+console.log(typeof isLoading)
 
 // Null (conteúdo vazio)
+let empty = null // intencional
+console.log("O valor é: ", empty)
 
 // Undefined (JS atribui automaticamente para uma variável que não valor)
+let emptiness
+console.log("O valor é: ", emptiness)
