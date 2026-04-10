@@ -1,6 +1,6 @@
 // JavaScript é dinâmico, o tipo da variável é definida dinamicamente pelo tipo do valor (não é necessário declarar o tipo).
 
-// Tipos Primitivos (disponiveis na própria linguagem)
+// Tipos Primitivos (disponíveis na própria linguagem)
 // String (texto)
 let username = "Alisson"
 console.log(username)
