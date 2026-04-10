@@ -19,6 +19,19 @@ console.log(`
 `)
 
 // Number (valor)
+console.log(typeof 5)
+
+// Inteiro positivo
+console.log(5)
+
+// Inteiro negativo
+console.log(-5)
+
+// Números reais ou float
+console.log(7.5) // Tem que ser . porque se for , ele acha que são diferentes
+
+// NaN - Not a Number
+console.log(12.5 / "alisson")
 
 // Boolean (verdadeiro ou falso)
 
