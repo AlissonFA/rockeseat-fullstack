@@ -1,12 +1,15 @@
-// Selecionar um elemento.
-const guest = document.querySelector("#guest-1")
+const input = document.querySelector("#name")
 
-// Retorna o conteúdo como texto.
-// console.log(guest.textContent)
+// Adiciona a classe.
+// input.classList.add("input-error")
 
-// guest.textContent = "Alisson"
-// console.log(guest)
+// Remover a classe.
+// input.classList.remove("input-error")
 
-console.log(guest.textContent) // Retorna o conteúdo visível e oculto.
-console.log(guest.innerText) // Retorna somente o conteúdo visível.
-console.log(guest.innerHTML) // Retorna o HTML como texto.
+// Se tem -> remove; Se não tem -> Adiciona. 
+// input.classList.toggle("input-error")
+
+const button = document.querySelector("button")
+
+// Modificar as propriedades css do elemento.
+button.style.backgroundColor = "red"
