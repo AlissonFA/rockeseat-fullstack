@@ -1,0 +1,83 @@
+:root {
+  --bg-color: #38bdf8;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+/* Breakpoints */
+/* rules */
+/*
+@media screen and (min-width: 576px) {
+  :root {
+    --bg-color: orangered;
+  }
+}
+*/
+
+/*
+@media (orientation: portrait) {
+  :root {
+    --bg-color: orangered;
+  }
+}
+*/
+
+/*
+@media (min-width: 40em) {
+  :root {
+    --bg-color: orangered;
+  }
+}
+*/
+
+/*
+@media (max-width: 576px) {
+  :root {
+    --bg-color: orangered;
+  }
+}
+*/
+
+/*
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: orangered;
+  }
+}
+*/
+
+/* AND */
+/*
+@media (min-width: 400px) and (max-width: 500px) {
+  :root {
+    --bg-color: orangered;
+  }
+}
+*/
+
+/* Range */
+/*
+@media (width >= 576px) {
+  :root {
+    --bg-color: orangered;
+  }
+}
+*/
+
+/*
+@media (400px < width < 576px) {
+  :root {
+    --bg-color: orangered;
+  }
+}
+*/
+
+/* NOT */
+@media not (400px < width < 576px) {
+  :root {
+    --bg-color: orangered;
+  }
+}
