@@ -1,0 +1,9 @@
+// Teste para saber se pode dirigir
+
+let age = 16
+console.log(age >= 18 // condição
+  ? "Você pode dirigir!" // se verdadeiro
+  : "Você não pode dirigir!" // se falso
+)
+
+console.log(age < 18 ? "Você não pode dirigir!" : "Você pode dirigir!")
