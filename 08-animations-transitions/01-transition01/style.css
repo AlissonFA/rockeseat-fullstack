@@ -1,0 +1,19 @@
+body {
+  background-color: mediumpurple;
+
+  & div {
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    opacity: .6;
+    /* transition-property: opacity, transform; */
+    transition-property: all; /* Não recomendado */
+    transition-duration: 1s, 200ms;
+    transition-delay: 1s, 10ms;
+
+    &:hover {
+      opacity: 1;
+      transform: translateX(20px);
+    }
+  }
+}
