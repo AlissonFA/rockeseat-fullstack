@@ -1,0 +1,20 @@
+body {
+  background-color: mediumpurple;
+
+  & div {
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    opacity: .6;
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+    /* transition-delay: 1s, 10ms; */
+    /* transition-timing-function: cubic-bezier(0,.92,.83,.67); */
+    transition-timing-function: steps(2);
+
+    &:hover {
+      opacity: 1;
+      transform: translateX(20px);
+    }
+  }
+}
