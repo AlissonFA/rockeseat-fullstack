@@ -1,0 +1,25 @@
+body {
+  background-color: mediumpurple;
+
+  & div {
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    opacity: .6;
+    /* transition: all 400ms ease; property | duration | timing-function */
+    /* transition: all 400ms 2s ease; property | duration | delay | timing-function */
+    /* transition: opacity 1s ease, transform 400ms linear; */
+
+    &:hover {
+      opacity: 1;
+      transform: translateX(20px);
+      transition: all 200ms; /* Transition only in hover state */
+    }
+  }
+}
+
+@media (prefers-reduced-motion) {
+  div {
+    transition: none;
+  }
+}
