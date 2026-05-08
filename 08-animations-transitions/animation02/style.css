@@ -1,0 +1,35 @@
+button {
+  background-color: deeppink;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 50%;
+
+  /* animation-name: move-x;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-direction: reverse;
+  animation-direction: alternate;
+  animation-iteration-count: 4;
+  animation-timing-function: ease; */
+
+  animation: move-x 1s 1s both 4 alternate ease, fade 1s 1s both 4 alternate ease;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes move-x {
+  100% {
+    transform: translateX(400px);
+  }
+}
+
+@keyframes fade {
+  50% {
+    opacity: 0;
+  }
+}
