@@ -1,0 +1,27 @@
+body {
+  max-width: 80%;
+  margin-inline: auto;
+
+  & img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  & article > img {
+    animation: fade linear both;
+    animation-timeline: view(90% 100px); /* Top | Bottom */
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    scale: .8;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
