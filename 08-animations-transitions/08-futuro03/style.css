@@ -1,0 +1,40 @@
+body {
+  max-width: 80%;
+  margin-inline: auto;
+
+  & img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  & article > img, h2, h3 {
+    animation: fade linear both, out linear;
+    animation-timeline: view(), view();
+    /* animation-range-start: 10px;
+    animation-range-end: 50%; */
+    /* animation-range: 10px 20%; Start | End */
+    /* animation-range: contain; */
+    animation-range: entry, exit;
+    /* animation-range: contain 100px, exit; */
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    scale: .8;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@keyframes out {
+  100% {
+    scale: 1.1;
+    opacity: 0;
+  }
+}
