@@ -13,8 +13,10 @@ export function App() {
   const message = useMessage({ name: "Alisson", age: 18 });
 
   useEffect(() => {
-    console.log("Oi!");
-  }, []);
+    if(count > 0) {
+      console.log("O valor mudou para " + count)
+    }
+  }, [count]);
 
   return (
     <div className={styles.container}>
