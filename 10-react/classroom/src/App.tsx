@@ -3,14 +3,14 @@ import "./global.css";
 import { useEffect, useState } from "react";
 
 import { Button } from "./components/button";
-// import { useMessage } from "./hooks/useMessage";
+import { useMessage } from "./hooks/useMessage";
 
 import styles from "./app.module.css";
 
 export function App() {
   const [count, setCount] = useState(0);
 
-  // const { show } = useMessage({ name: "Alisson", age: 18 });
+  const message = useMessage({ name: "Alisson", age: 18 });
 
   useEffect(() => {
     console.log("Oi!");
