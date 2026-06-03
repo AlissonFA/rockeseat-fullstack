@@ -11,3 +11,5 @@ const maskedNumber = lastDigits.padStart(String(creditCard).length, "X")
 console.log(maskedNumber)
 
 // O padEnd preenche a string no final
+const number = "123"
+console.log(number.padEnd(10, "#"))
