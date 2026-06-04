@@ -1,0 +1,13 @@
+// Criando Array com construtor
+const newArray = new Array();
+
+// [] - Array
+// {} - Object
+
+// Retorna o tamanho do Array
+console.log(newArray.length);
+
+// Cria o Array com 10 posições vazias.
+const available = new Array(10);
+
+console.log(available)
