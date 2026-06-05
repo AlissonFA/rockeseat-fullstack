@@ -9,9 +9,9 @@ users.push("Gabriel");
 users.unshift("Ana");
 
 // Remove um item do início do Array
-users.shift()
+users.shift();
 
 // Remove um item do final do Array
-users.pop()
+users.pop();
 
 console.log(users);
