@@ -7,4 +7,5 @@ class Person {
   }
 }
 
+// Instanciando a classe
 const person = new Person("Alisson")

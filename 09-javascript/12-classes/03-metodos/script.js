@@ -10,5 +10,6 @@ class User {
   }
 }
 
+// Instanciando a classe
 const user = new User("Alisson", "alisson@gmail.com");
 user.sendEmail();
