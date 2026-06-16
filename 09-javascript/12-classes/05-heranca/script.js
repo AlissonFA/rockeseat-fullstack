@@ -22,4 +22,4 @@ class Cat extends Animal {
 
 const cat = new Cat("Mel");
 console.log(cat.name)
-dog.makeNoise();
+cat.makeNoise();
